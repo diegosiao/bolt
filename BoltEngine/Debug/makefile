@@ -43,7 +43,7 @@ all: BoltEngine
 # Tool invocations
 BoltEngine: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
-	@echo 'Invoking: MacOS X C++ Linker'
+	@echo 'Invoking: MinGW C++ Linker'
 	g++  -o "BoltEngine" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '

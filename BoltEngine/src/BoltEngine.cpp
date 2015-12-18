@@ -10,10 +10,10 @@
  * OGL02Animation.cpp: 3D Shapes with animation
  */
 //#include <windows.h>  // for MS Windows
-#include <GL/glut.h>  // GLUT, include glu.h and gl.h
+#include <GL/glut.h> // GLUT, include glu.h and gl.h
 
 /* Global variables */
-char title[] = "3D Shapes with animation";
+char title[] = "BOLT - z! 3D Shapes with animation";
 GLfloat anglePyramid = 0.0f;  // Rotational angle for pyramid [NEW]
 GLfloat angleCube = 0.0f;     // Rotational angle for cube [NEW]
 int refreshMills = 15;        // refresh interval in milliseconds [NEW]

@@ -16,7 +16,7 @@
 char title[] = "BOLT - z! 3D Shapes with animation";
 GLfloat anglePyramid = 0.0f;  // Rotational angle for pyramid [NEW]
 GLfloat angleCube = 0.0f;     // Rotational angle for cube [NEW]
-int refreshMills = 15;        // refresh interval in milliseconds [NEW]
+int refreshMills = 1;        // refresh interval in milliseconds [NEW]
 
 /* Initialize OpenGL Graphics */
 void initGL() {

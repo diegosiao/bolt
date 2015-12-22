@@ -1,12 +1,10 @@
 //============================================================================
 // Name        : BoltEngine.cpp
 // Author      : Diego Morais (diegosiao@gmail.com)
-// Version     :
-// Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Version     : 1.0
+// Description : OpenGL base of the Bolt Application
 //============================================================================
 
-//#include <windows.h>  // for MS Windows
 #include <GL/glut.h> // GLUT, include glu.h and gl.h
 
 /* Global variables */
@@ -17,7 +15,7 @@ int refreshMills = 1;        // refresh interval in milliseconds [NEW]
 
 /* Initialize OpenGL Graphics */
 void initGL() {
-   glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Set background color to black and opaque
+   glClearColor(0.9f, 0.9f, 0.9f, 1.0f); // Set background color to black and opaque
    glClearDepth(1.0f);                   // Set background depth to farthest
    glEnable(GL_DEPTH_TEST);   // Enable depth testing for z-culling
    glDepthFunc(GL_LEQUAL);    // Set the type of depth-test
@@ -120,6 +118,11 @@ void display() {
       glVertex3f(-1.0f,-1.0f, 1.0f);
    glEnd();   // Done drawing the pyramid
 
+   glBegin(GL_2D);
+   glVertex2d(1.5f, 1.5f);
+   glVertex2d(1.0f, 2.0f);
+   glEnd();
+
    glutSwapBuffers();  // Swap the front and back frame buffers (double buffering)
 
    // Update the rotational angle after each refresh [NEW]
@@ -127,7 +130,7 @@ void display() {
    angleCube -= 0.15f;
 }
 
-/* Called back when timer expired [NEW] */
+/* Called back when timer expired */
 void timer(int value) {
    glutPostRedisplay();      // Post re-paint request to activate display()
    glutTimerFunc(refreshMills, timer, 0); // next timer call milliseconds later

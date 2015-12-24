@@ -36,6 +36,13 @@
 
 // switches to providing function pointers
 //#define GL_GLEXT_FUNCTION_POINTERS 1
+#ifdef __linux__
+#include<X11/X.h>
+#include<X11/Xlib.h>
+#include<GL/gl.h>
+//#include<GL/glx.h>
+#include<GL/glu.h>
+#endif
 
 #include <OpenGL/gltypes.h>
 	

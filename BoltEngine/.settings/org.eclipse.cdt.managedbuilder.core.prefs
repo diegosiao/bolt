@@ -23,6 +23,14 @@ environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.macosx.exe.debug
 environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.macosx.exe.debug.826398892/C_INCLUDE_PATH/operation=remove
 environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.macosx.exe.debug.826398892/append=true
 environment/buildEnvironmentInclude/cdt.managedbuild.config.gnu.macosx.exe.debug.826398892/appendContributed=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/CPATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/CPLUS_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/C_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/C_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/append=true
+environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/appendContributed=true
 environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046/CPATH/delimiter=;
 environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046/CPATH/operation=remove
 environment/buildEnvironmentInclude/cdt.managedbuild.config.macosx.exe.release.1270642046/CPLUS_INCLUDE_PATH/delimiter=;
@@ -43,6 +51,10 @@ environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.macosx.exe.debug
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.macosx.exe.debug.826398892/LIBRARY_PATH/operation=remove
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.macosx.exe.debug.826398892/append=true
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.gnu.macosx.exe.debug.826398892/appendContributed=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/LIBRARY_PATH/delimiter=\:
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/LIBRARY_PATH/operation=remove
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/append=true
+environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046.581234800/appendContributed=true
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046/LIBRARY_PATH/delimiter=;
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046/LIBRARY_PATH/operation=remove
 environment/buildEnvironmentLibrary/cdt.managedbuild.config.macosx.exe.release.1270642046/append=true

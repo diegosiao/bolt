@@ -3,6 +3,7 @@
 	<name>BoltEngine</name>
 	<comment></comment>
 	<projects>
+		<project>BoltEngine</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
